@@ -16,5 +16,3 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '8'
-      - name: Run integration tests
-        run: sh ./scripts/check-all
