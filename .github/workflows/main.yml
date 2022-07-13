@@ -11,8 +11,5 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Prepare java
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'temurin'
-          java-version: '8'
+      - name: Apache Maven Build Automation for Java Project
+        uses: NishkarshRaj/Maven_Actions@0.1
